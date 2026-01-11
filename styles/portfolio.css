@@ -67,7 +67,9 @@ nav .menu a{
     
 }
 #banner{
-    background-image: url('../Images/assets/hero-bg.png')
+    background-image: url('../Images/assets/hero-bg.png');
+    width:100%;
+    height: 674px;
     
 }
 #banner .banner-content .early-access-btn{ 
@@ -143,16 +145,92 @@ nav .menu a{
     height: auto;
     position: absolute;
  }
- #card{
-    width: 100%;
-    height: 448px;
-    padding: 0 120px 120px 120px;
+
     
+    
+ 
+ 
+   #card{
+          padding-top:  40px }                    
+                       
+
+
+ 
+ .card-heading{
+    margin: 0 auto;
  }
- #card .card-container{ max-width: 1360px;
-                       height: 152px;
-                       margin:0 auto;
+ #card .card-heading h1{ font-size: 48px;
+                           font-weight: bolder;
+                           color: #001931;
+                           text-align: center;
+                            gap :16px;
+                        margin:0 auto}
+#card .card-heading p{ 
+                       font-size: 16px;
+                       color: #677382;
                        text-align: center;
+                       margin-top: 16px;
+}
+
+ 
+.card-01{
+  background: #ffffff;   
+  padding: 40px 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  width: 322px;
+  height: 300px;
+
+}
 
 
- }
+
+  
+
+.card-01 img{
+  background: #f95555;
+  padding: 16px;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(249, 85, 85, 0.4);
+}
+.card-info{
+  
+ width:1360px;
+  gap: 24px;
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  
+  text-align: center;
+}
+.card-info .card-01{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 69.5px;
+    text-align: center;
+    /* border: 1px solid red; */
+    max-width: 322px;
+
+}
+.card-info .card-01 img{
+    max-width: 60px;
+    
+}
+.card-01 h3{
+    font-size: 24px;
+    color: #001931;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.card-01 p{
+    margin-bottom: 69.5px;
+    margin-top: 16px;
+    font-size: 16px;
+    color: #677382;
+    line-height: 20px;
+
+}
