@@ -234,3 +234,43 @@ nav .menu a{
     line-height: 20px;
 
 }
+#solution{ max-width: 1360px;
+           margin:120px 120px 120px 120px ;
+           display: flex;
+           border: 1px solid red;
+           gap: 60px;
+           
+
+}
+#solution .img{
+    width: 600px;
+    height: 600px;
+    
+}
+#solution .solution-content {
+                             max-width: 700px;
+                             
+                             margin-top: 102px;
+                             margin-bottom: 102px;
+                             
+}
+.text{
+    font-size: 16px;
+    color: #30B868;
+    line-height: 20px;
+}
+.solution-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    height: 116px;
+    width: 700px;
+    
+}
+.solution-content .text1{ font-size: 16px;
+                          color: #677382;
+                          line-height: 20px;
+                          margin-top: 16px;
+                          margin-bottom: 40px;
+
+}
