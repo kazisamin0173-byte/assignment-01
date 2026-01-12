@@ -147,7 +147,7 @@ nav .menu a{
  }
  .banner-content .banner-container .btn2{ 
      
-    width: 198px;
+    width: 251px;
     height: 52px;
     gap: 10px;
     border-radius: 4px;
@@ -212,7 +212,7 @@ nav .menu a{
   background: #f95555;
   padding: 16px;
   border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(249, 85, 85, 0.4);
+  box-shadow: 0 10px 20px rgba(249, 85, 85, 0.4);
 }
 .card-info{
   
@@ -278,6 +278,10 @@ nav .menu a{
     font-size: 16px;
     color: #30B868;
     line-height: 20px;
+    
+}
+.solution{
+    max-width: 700px;
 }
 .solution-content h1{
     font-size: 48px;
@@ -292,5 +296,91 @@ nav .menu a{
                           line-height: 20px;
                           margin-top: 16px;
                           margin-bottom: 40px;
+                          padding-right: 40px;
+                          
+    
+    
+}
+.text-container p{    
+                    align-items: center;
+                                   margin-top: 40px;
+                                   gap: 16px;
+                                   line-height: 20px;
+                                   font-weight: 600;
+                                   
+} 
+.text-container .logo img  {
+                             width: 20px;
+                             height: 20px;
+                             margin-bottom: 2px;
+}                 
+
+#bottom{
+    max-width: 1360px;
+    height: 384px;
+
+    background-color: #F7F6F2;
+    border: 1px solid red;
+    margin: 120px 120px 120px 120px;
+
 
 }
+.bottom-container{
+    
+
+    align-items: center;
+    padding:  auto;
+    max-width: 1280px;
+    height: 112px;
+    align-content: center;
+
+}
+.bottom-container h1{ margin-top: 80px;
+    width: 1280px;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #001931;
+
+
+    
+}
+.bottom-container p{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #677382;
+}
+
+
+    
+
+
+.bottom-container button { width: 194px;
+    height: 52px;
+    background-color: #30B868;
+    color: #F7F6F2;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+     margin-left: 543px;
+    border-radius: 12px ;
+    border: none;
+}
+.bottom-container button img{
+ text-align: center;
+}
+.bottom-container button p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#677382;
+}
+
+
+
