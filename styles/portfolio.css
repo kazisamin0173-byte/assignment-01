@@ -84,9 +84,7 @@ nav .menu a{
     width:229px;
     padding: 8px 12px ;
     display: block;
-    
-    
-    
+
 }
  .early-access-btn .arrow{
     position: left;
@@ -111,8 +109,6 @@ nav .menu a{
     font-size: 80px;
     font-weight: bolder;
     color: #FFFFFF;
-    
-
 }
 .banner-container h1 span{
     color: #30B868;
@@ -153,7 +149,6 @@ nav .menu a{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
-    
     align-items: center;
     padding: 12px 20px;
     border:1px solid white;
@@ -163,18 +158,7 @@ nav .menu a{
     
 
  }
-
- 
-
-    
-    
- 
- 
-   #card{
-          padding-top:  40px }                    
-                       
-
-
+   #card{padding-top:  40px }                    
  
  .card-heading{
     margin: 0 auto;
@@ -191,7 +175,6 @@ nav .menu a{
                        text-align: center;
                        margin-top: 16px;
 }
-
  
 .card-01{
   background: #ffffff;   
@@ -203,10 +186,6 @@ nav .menu a{
   height: 300px;
 
 }
-
-
-
-  
 
 .card-01 img{
   background: #f95555;
@@ -257,7 +236,7 @@ nav .menu a{
 #solution{ max-width: 1360px;
            margin:120px 120px 120px 120px ;
            display: flex;
-           border: 1px solid red;
+           /* border: 1px solid red; */
            gap: 60px;
            
 
@@ -301,26 +280,30 @@ nav .menu a{
     
     
 }
-.text-container p{    
+.text-container{
+    margin-top: 40px;
+}   
+
+ .text-content-01 { display: flex;
                     align-items: center;
-                                   margin-top: 40px;
-                                   gap: 16px;
-                                   line-height: 20px;
-                                   font-weight: 600;
-                                   
+                    gap: 6px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color:#001931;
+                    padding-bottom:16px;
+                    height: 20px;
+                    margin-bottom: 12px;
+                    
 } 
-.text-container .logo img  {
-                             width: 20px;
-                             height: 20px;
-                             margin-bottom: 2px;
-}                 
+
+   
 
 #bottom{
     max-width: 1360px;
     height: 384px;
 
     background-color: #F7F6F2;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 120px 120px 120px 120px;
 
 
@@ -356,10 +339,6 @@ nav .menu a{
     color: #677382;
 }
 
-
-    
-
-
 .bottom-container button { width: 194px;
     height: 52px;
     background-color: #30B868;
@@ -368,7 +347,7 @@ nav .menu a{
     align-items: center;
     font-size: 16px;
     font-weight: 600;
-     margin-left: 543px;
+    margin-left: 543px;
     border-radius: 12px ;
     border: none;
 }
@@ -376,11 +355,75 @@ nav .menu a{
  text-align: center;
 }
 .bottom-container button p{
+    
     font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    color:#677382;
+    color: #627382;
+    line-height: 24px;
+}
+.earlyaccess{
+      margin-top: 24px;
+      margin-bottom: 16px;
 }
 
+footer{
+    background-color: #001931;
+    margin-top: 120px;
+    height: 348px;
+}
+.footer-container{
+  
+    width: 85%;
+    max-width: 1360px;
+     margin: 0 auto;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+     
+}
+.logo {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right:107px ;
+}
+.logo a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sociallogo{
+    margin-top: 16px;
+    
+}
+.copyright{
+    margin-top: 80px;
+    margin-bottom:30px;
+    color: #FAFAFA;
+    text-align:center;
+    
+}
+.copyright p{
+    padding-top: 30px;
+}
+.copyright hr{
+    color: #E5E7EB;
+    opacity: 0.2;
+}
 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
