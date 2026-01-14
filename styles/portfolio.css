@@ -236,7 +236,6 @@ nav .menu a{
 #solution{ max-width: 1360px;
            margin:120px 120px 120px 120px ;
            display: flex;
-           /* border: 1px solid red; */
            gap: 60px;
            
 
@@ -301,9 +300,7 @@ nav .menu a{
 #bottom{
     max-width: 1360px;
     height: 384px;
-
     background-color: #F7F6F2;
-    /* border: 1px solid red; */
     margin: 120px 120px 120px 120px;
 
 
